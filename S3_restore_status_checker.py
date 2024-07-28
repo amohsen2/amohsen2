@@ -17,7 +17,7 @@ import boto3
 s3_client = boto3.client('s3')
 
 # Specify the bucket name and prefix
-bucket_name = 'scriptmohsen1'
+bucket_name = 'bucketname'
 prefix_name = 'folder/'
 
 # Create a list to store the object details
